@@ -1,4 +1,4 @@
-# Online Library System
+# Graphical method with two variables
 This is a very old project, from my time at the university in 2013.
 
 ### Features
