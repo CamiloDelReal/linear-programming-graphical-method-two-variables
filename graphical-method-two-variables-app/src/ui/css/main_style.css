@@ -1,0 +1,108 @@
+#ContentPane {
+    -fx-background-image: url("../img/center_background.png");
+}
+
+#TopPane {
+    -fx-padding: 5px, 0, 5px, 0;
+}
+
+#ownerToolTip{
+	-fx-padding: 7;
+	-fx-background-radius: 4;
+	-fx-background-color: linear-gradient(to bottom, rgba(135, 206, 250, 0.8), rgba(70, 130, 180, 0.8));
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.5 , 0 , 0 );
+	-fx-font-family: 'Calibri';
+}
+
+#ownerToolTip .lblTitle{
+	-fx-font-size: 13;
+}
+#ownerToolTip .lblText{
+	-fx-font-size: 11;
+	-fx-padding: 0 0 0 8;
+}
+
+#btnNew{
+	-fx-background-color: null;
+	-fx-background-image: url("../img/graphic70.png");
+	-fx-background-position: left top;
+	-fx-background-repeat: no-repeat;
+}
+
+#btnAbout{
+	-fx-background-color: null;
+	-fx-background-image: url("../img/about70.png");
+	-fx-background-position: left top;
+	-fx-background-repeat: no-repeat;
+}
+
+#btnHelp {
+    -fx-background-color: null;
+    -fx-background-image: url("../img/help70.png");
+    -fx-background-position: left top;
+    -fx-background-repeat: no-repeat;
+}
+
+#CenterPane {
+    -fx-padding: 10px;
+}
+
+#PanelLeft {
+    -fx-padding: 10px 2px 0 2px;
+    -fx-background-image: url("../img/top_background.png");
+    -fx-effect: dropshadow( two-pass-box , black , 20, 0 , 0 , 0 );
+}
+
+#Title {
+    -fx-font-family: "Calibri";
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0 0 0;
+}
+
+.tagX {
+    -fx-padding: 5px 0 0 10px;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+.tagx {
+    -fx-padding: 5px 0 0 1px;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+.termsBox {
+    -fx-background-color: lavender;
+    -fx-background-radius: 3;
+    -fx-padding: 2px 0 0 2px;
+}
+
+.fobox {
+    -fx-background-color: lavender;
+    -fx-background-radius: 3;
+    -fx-padding: 2px 0 0 2px;
+}
+
+
+#dialogo{
+	-fx-background-color: black, white, linear-gradient(rgb(250,250,250), rgb(230,230,230));
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 15, 14, 13;
+    -fx-padding: 15;
+    -fx-effect: dropshadow( three-pass-box , black , 20, 0 , 0 , 0 );
+    -fx-font-family: Calibri;
+    -fx-font-size: 14;
+}
+
+#dialogo .button{
+	-fx-padding: 3 0 0 0;
+	-fx-base: #0093FF;
+	-fx-text-fill: rgb(255,255,255);
+}
+
+#dialogRoot{
+	-fx-background-color: rgba(0,0,0,0.4);
+}
